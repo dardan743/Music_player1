@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations"
+        />
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_display_name"
+            android:inputType="textCapWords"
+            android:key="example_text"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_display_name"
+            />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:key="example_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_add_friends_to_messages"
+        />
+
+        <PreferenceCategory
+            android:icon="@drawable/ic_contact_support"
+            android:key="Contact"
+            android:title="@string/pref_contact">
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/switch_rate_app"
+                android:title="@string/pref_rate_app_contact_settings"
+                android:icon="@drawable/ic_star"/>
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="@string/switch_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/pref_feedback_contact_settings"/>
+            <SwitchPreference
+                android:layout_height="wrap_content"
+                android:defaultValue="true"
+                android:icon="@drawable/ic_share"
+                android:key="@string/switch_share"
+                android:summary="@string/share_summary"
+                android:title="@string/share_title" />
+            </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavDrawerExtras.ColorPickerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="613dp"
+            android:text="Enable Color Picker"
+            android:textColor="@color/gray"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/colorpicker"
+            style="@style/CustomSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="611dp"
+            android:textOff="Off"
+            android:textOn="On"
+            android:thumb="@drawable/thumb1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:showText="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

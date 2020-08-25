@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/color_black"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/applemusic"
+        android:onClick="openApplemusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:text="Apple Music"
+        android:textColor="@color/colorwhite" />
+
+        <Button
+            android:onClick="openDropbox"
+        android:id="@+id/dropbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="Dropbox"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/googledrive"
+        android:onClick="openGoogledrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="Google Drive"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/onedrive"
+        android:onClick="openOnedrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="OneDrive"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/files"
+        android:onClick="openFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:text="Files"
+        android:textColor="@color/colorwhite" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+        android:text="Cancel"
+        android:onClick="onCancel"
+        android:textColor="@color/green" />
+
+</LinearLayout>

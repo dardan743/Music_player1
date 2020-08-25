@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">Music player</string>
+
+    <string name="title">Music player</string>
+    <string name="theme_color">Theme Color</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="equalizer_app">Equalizer</string>
+    <string name="bass_booster_app">Bass Booster</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="Import">Import</string>
+    <string name="favorites">Favorites</string>
+    <string name="about_text">Music player is an application to play mp3 music on your android device.
+        easily. Custom your color as you feel.
+    </string>
+    <string name="Import_songs">Import From Computer : 192.168.1.1
+                                Import From Icloud : 192.168.1.2
+    </string>
+    <string name="Rate_app"></string>
+    <string name="rate_app">Rate_App</string>
+    <string name="ok">OK</string>
+    <string name="start_time">0.00</string>
+    <string name="final_time">0.00</string>
+    <string name="search_hint">Song Name</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="delete_text"> Are you sure you want to delete</string>
+    <string name="play_next">Play Next</string>
+
+    <string name="player_app">Player</string>
+    <string name="import_songs_MP3">Import Songs MP3</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="intro_text">Droid Desserts</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate
+        wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream
+        sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="change_dessert">Change dessert</string>
+    <string name="order_label_text">Order:</string>
+    <string name="note_label_text">Note:</string>
+    <string name="name_label_text">Name</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="address_label_text">Address</string>
+    <string name="enter_address_hint">Enter address</string>
+    <string name="phone_label_string">Phone</string>
+    <string name="enter_phone_hint">Enter phone</string>
+    <string name="enter_note_hint">Enter note</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
+    <string name="same_day_messenger_service">Same day messenger
+        service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="title_activity_order">Order Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_account">Account</string>
+
+    <string name="pref_title_account">Music state</string>
+    <string-array name="pref_market_titles">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_market_values">
+        <item>US</item>
+        <item>CA</item>
+        <item>UK</item>
+        <item>IN</item>
+        <item>JA0</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <string name="pref_title_account_settings">Account settings</string>
+
+
+
+
+    <string name="pref_contact">Contact</string>
+    <!--RATE APP-->
+    <string name="switch_rate_app">rate_app</string>
+    <string name="pref_rate_app_contact_settings">Rate Us</string>
+    <!--FEEDBACK -->
+    <string name="pref_feedback_contact_settings">Send Feedback</string>
+    <string name="switch_feedback">feedback</string>
+    <!--SHARE-->
+    <string name="switch_share">Share</string>
+    <string name="share_title">Share</string>
+    <string name="share_summary">Share to Instagram,Snapchat, etj...</string>
+    <string name="Help_contact">Help</string>
+    <string name="Rate">string</string>
+
+    <string name="_00_00">00:00</string>
+    <string name="start_timer">Start</string>
+    <string name="reset_timer">Reset</string>
+    <string name="set_timer">set</string>
+    <string name="notification">notification</string>
+    <string name="settings">Settings</string>
+
+    /*Theme color strings*/
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="light_blue">Light Blue</string>
+    <string name="pink">Pink</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="gray">Gray</string>
+    <string name="brown">Brown</string>
+    <string name="pick">Pick your Color</string>
+    <string name="agree">I agree to the terms and conditions</string>
+
+
+    <string name="no_audio_ID">Play a song first, then try again</string>
+    <string name="no_equalizer">No equalizer found</string>
+    <string name="Import_song">Import Songs</string>
+    <string name="import_from_youtube">Import from Youtube</string>
+    <string name="import_from_computer">Import MP3 from PC</string>
+    <string name="import_from_itunes">Import From Itunes</string>
+    <string name="import_from_audiomack">Import From Audiomack</string>
+    <string name="import_title">Import more music
+        to expand your library</string>
+    <string name="from_other_devices">From other Devices</string>
+    <string name="from_your_computer">From your computer</string>
+
+    <string name="eq">Equalizer</string>
+
+    <!--Info actvity-->
+    <string name="credits">
+        \u2022 <b>SQL-Lite Helper</b> for Database.
+        \n\u2022 <b>Google Images</b> for app icon.
+        \n\u2022 <b>Flaticon</b> for social media icons.
+    </string>
+    <string name="libs">\u2022 <b>Cardeview</b> for showing cardviews.
+         \n\u2022 <b>Circle ImageView</b> for showing a Profile Image.
+        \n\u2022 <b>com.github.yukuku:ambilwarna:2.0.1</b>
+        FOR ColorDialog
+    </string>
+    <string name="themecolor">Theme Color</string>
+    <string name="mp3_converter">Mp3 Converter</string>
+
+    <string name="lorem_ipsum">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="playlist">Playlist</string>
+    <string name="connect_to_a_source">Connect to a source</string>
+    <string name="instructions_app">Instructions: Import Songs from Computer or laptop with IP address,
+        or connect to any other source. You have the menu to connect to youtube, itunes,
+        audiomack and also can convert music to mp3 and add them to the app.</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="default_gallery_storage">My Videos</string>
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the Music when wifi is available</string>
+    <string name="title_upload_quality">Upload Quality</string>
+    <string name="summary_upload_video_quality">Specify video quality for uploads</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">3.5</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">http://www.androidhive.info/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://www.androidhive.info/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">http://www.androidhive.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="action_settings_headers">Settings with Headers</string>
+</resources>

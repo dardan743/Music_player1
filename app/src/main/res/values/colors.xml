@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorsplash">#161625</color>
+    <color name="colorPrimary">#2DAFDA </color>
+    <color name="colorPrimaryDark">@color/color_black</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="backgroundColor">#303030</color>
+    <color name="cardBackground">#424242</color>
+    <color name="colorinfo">#000D41</color>
+
+
+    <color name="text_color">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="drawer_color">#335763</color>
+    <color name="light_color">#fafafa</color>
+    <color name="off_color">#dfdada</color>
+    <color name="gray_color">#9c9b9b</color>
+
+    <color name="colorPrimaryPurple">#B53471</color>
+    <color name="colorPrimaryDarkPurple">#6F1E51</color>
+    <color name="colorAccentPurple">#9980FA</color>
+
+    <color name="colorBlue">#2980b9</color>
+    <color name="colorBlueLight">#94c6e7</color>
+    <color name="colorRed">#c0392b</color>
+    <color name="colorRedLight">#f8c9c4</color>
+    <color name="colorAsphalt">#2c3e50</color>
+    <color name="colorAsphaltLight">#688aac</color>
+    <color name="textColor">#ffffff</color>
+
+    <color name="colorLightgray">#17A88B</color>
+
+    <color name="pink">#FF1493</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#2A8F72</color>
+    <color name="blue">#013ADF</color>
+    <color name="orange">#FF8000</color>
+    <color name="yellow">#FFFFFB00</color>
+    <color name="purple">#FF9200BC</color>
+    <color name="gray">#53514B</color>
+    <color name="brown">#FFAC6E22</color>
+    <color name="bluedark">#1c8fc7</color>
+    <color name="colorWindowBackground">#000</color>
+    <color name="lightgray"></color>
+
+</resources>

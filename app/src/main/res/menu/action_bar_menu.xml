@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dardan.musicplayer.Activity.MainActivity">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/settings"-->
+<!--        android:title="Settings"-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        app:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/filter"
+        android:title="Filter"
+        app:showAsAction="never"
+        android:icon="@drawable/filter">
+
+
+        <menu>
+            <item android:id="@+id/sort1"
+                android:title="Sort A to Z"
+                android:icon="@drawable/filter_atoz"
+                android:orderInCategory="100" />
+            <item android:id="@+id/sort2"
+                android:title="Sort Z to A"
+                android:icon="@drawable/filter_ztoa"
+                android:orderInCategory="100" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_favorites"
+        android:icon="@drawable/favorite_icon"
+        android:title="@string/favorites"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/notification"
+        app:showAsAction="always"
+        android:actionLayout="@layout/notification_badge"/>
+
+</menu>

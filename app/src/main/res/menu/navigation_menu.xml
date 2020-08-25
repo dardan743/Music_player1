@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/player_app">
+        <menu>
+        <item
+            android:id="@+id/Equalizer"
+            android:icon="@drawable/ic_equalizer"
+            android:title="@string/equalizer_app"/>
+        <item
+            android:id="@+id/Bass_booster"
+            android:icon="@drawable/ic_bass"
+            android:title="@string/bass_booster_app" />
+            <item
+                android:id="@+id/nav_Import"
+                android:icon="@drawable/ic_baseline_import_export_24"
+                android:title="@string/import_songs_MP3"/>
+            <item
+                android:id="@+id/Playlist"
+                android:icon="@drawable/ic_baseline_playlist_play_24"
+                android:title="@string/playlist"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:orderInCategory="50"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/settings"
+                />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="@string/about" />
+<!--            <item-->
+<!--                android:id="@+id/settings"-->
+<!--                android:title="Settings"-->
+<!--                android:icon="@drawable/ic_settings" />-->
+        </menu>
+    </item>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/UIsettings"
+                android:title= "@string/themecolor"
+                android:icon="@drawable/theme_color_icon"/>
+            <item
+                android:id="@+id/Sleep_Timer"
+                android:icon="@drawable/ic_sleep_timer"
+                android:title="@string/sleep_timer"
+                />
+<!--            <item-->
+<!--                android:id="@+id/dateandtime"-->
+<!--                android:icon="@drawable/ic_baseline_calendar_today_24"-->
+<!--                android:title="Date and Time"-->
+<!--                />-->
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorAccentPurple</item>
+    </style>
+
+    <style name="backTabColor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gray</item>
+    </style>
+    <style name="backTabColor1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+    <style name="LightblueTheme">
+        <item name="android:background">#FF2DAFDA</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+        <!--equilizer-->
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#C95E5E</item>
+        <item name="colorSwitchThumbNormal">#565656</item>
+        <item name="android:colorForeground">#383838</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Mp3_converter"
+        android:title="@string/mp3_converter"
+        app:showAsAction="never"
+        android:onClick="openConverter"
+        android:icon="@drawable/computer_transfer"/>
+    <item
+        android:id="@+id/Import_youtube"
+        android:title="Import From Youtube"
+        app:showAsAction="always"
+        android:onClick="openYoutube"
+        android:icon="@drawable/youtube"/>
+    <item
+        android:id="@+id/Import_itunes"
+        android:title="Import From Itunes"
+        android:onClick="openItunes"
+        app:showAsAction="never"
+        android:icon="@drawable/itunes"/>
+    <item
+        android:id="@+id/Import_audiomack"
+        android:title="Import From Audimack"
+        android:onClick="openAudiomack"
+        app:showAsAction="never"
+        android:icon="@drawable/audiomack"/>
+</menu>
