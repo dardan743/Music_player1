@@ -51,6 +51,7 @@ public class ImportSongsActivity extends AppCompatActivity implements BottomShee
         getMenuInflater().inflate(R.menu.import_menu, menu);
         return true;
     }
+
     //onClick action
 
     public void openComputer (View view) {

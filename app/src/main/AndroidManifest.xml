@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.UISettingsActivity"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor"/>
+            android:theme="@style/backTabColor1"/>
         <activity
             android:name=".NavDrawerExtras.Playlist.AddEditNoteActivity"
             android:parentActivityName=".NavDrawerExtras.Playlist.PlaylistActivity"
@@ -27,7 +27,7 @@
         <activity
             android:name=".NavDrawerExtras.Playlist.PlaylistActivity"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
+            android:theme="@style/backTabColor1" />
         <activity
             android:name=".NavDrawerExtras.DateAndTime"
             android:parentActivityName=".Activity.MainActivity"
@@ -35,29 +35,25 @@
         <activity
             android:name=".NavDrawerExtras.ColorPickerActivity"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
+            android:theme="@style/backTabColor1" />
         <activity
             android:name=".NavDrawerExtras.Equilizer"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
+            android:theme="@style/backTabColor1" />
         <activity
             android:name=".NavDrawerExtras.ImportSongsActivity"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
-        <activity
-            android:name=".NavDrawerExtras.BassBooster"
-            android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
+            android:theme="@style/backTabColor1" />
         <activity
             android:name=".NavDrawerExtras.InfoActivity"
             android:parentActivityName=".Activity.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/backTabColor"
+            android:theme="@style/backTabColor1"
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".NavDrawerExtras.SleepTimer"
             android:parentActivityName=".Activity.MainActivity"
-            android:theme="@style/backTabColor" />
+            android:theme="@style/backTabColor1" />
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>

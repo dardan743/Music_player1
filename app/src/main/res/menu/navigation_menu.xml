@@ -7,10 +7,6 @@
             android:id="@+id/Equalizer"
             android:icon="@drawable/ic_equalizer"
             android:title="@string/equalizer_app"/>
-        <item
-            android:id="@+id/Bass_booster"
-            android:icon="@drawable/ic_bass"
-            android:title="@string/bass_booster_app" />
             <item
                 android:id="@+id/nav_Import"
                 android:icon="@drawable/ic_baseline_import_export_24"

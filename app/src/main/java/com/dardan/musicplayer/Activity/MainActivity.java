@@ -36,7 +36,6 @@ import android.widget.Toast;
 import com.dardan.musicplayer.Adapter.ViewPagerAdapter;
 import com.dardan.musicplayer.NavDrawerExtras.ColorPickerActivity;
 import com.dardan.musicplayer.NavDrawerExtras.Equilizer;
-import com.dardan.musicplayer.NavDrawerExtras.BassBooster;
 import com.dardan.musicplayer.DB.FavoritesOperations;
 import com.dardan.musicplayer.Fragments.AllSongFragment;
 import com.dardan.musicplayer.Fragments.CurrentSongFragment;
@@ -172,9 +171,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         break;
                     case R.id.nav_Import:
                         startActivity(new Intent(MainActivity.this, ImportSongsActivity.class));
-                        break;
-                    case R.id.Bass_booster:
-                        startActivity(new Intent(MainActivity.this, BassBooster.class));
                         break;
                     case R.id.UIsettings:
                         startActivity(new Intent(MainActivity.this, ColorPickerActivity.class));
@@ -326,7 +322,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 //        int id = item.getItemId();
-//
 //        if (id == R.id.settings) {
 //            // launch settings activity
 //            startActivity(new Intent(MainActivity.this, UISettingsActivity.class));
@@ -339,8 +334,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.menu_search:
                 Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show();
                 return true;
-            //case R.id.Sleep_Timer:
-                //startActivity(new Intent(MainActivity.this, SleepTimer.class));
             case R.id.menu_favorites:
                 if (checkFlag)
                     if (mediaPlayer != null) {

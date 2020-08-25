@@ -21,8 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/edit_text_input"
         android:layout_toEndOf="@+id/edit_text_input"
-        android:textColor="@color/colorwhite"
-        android:background="@color/gray"
+        android:textColor="@color/color_black"
+        android:background="@color/colorwhite"
         android:text="@string/set_timer"/>
     <TextView
         android:id="@+id/text_view_countdown"
@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/_00_00"
-        android:textColor="@color/gray"
+        android:textColor="@color/color_black"
         android:textSize="60sp" />
 
     <Button
@@ -41,8 +41,8 @@
         android:layout_below="@+id/text_view_countdown"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:background="@color/gray"
-        android:textColor="@color/colorwhite"
+        android:background="@color/colorwhite"
+        android:textColor="@color/color_black"
         android:text="@string/start_timer" />
     <Button
         android:id="@+id/button_reset"
@@ -52,9 +52,9 @@
         android:layout_marginStart="11dp"
         android:layout_toEndOf="@+id/button_start_pause"
         android:text="@string/reset_timer"
-        android:background="@color/gray"
+        android:background="@color/colorwhite"
         android:visibility="invisible"
-        android:textColor="@color/colorwhite"
+        android:textColor="@color/color_black"
         tools:visibility="visible"/>
 
 </RelativeLayout>
