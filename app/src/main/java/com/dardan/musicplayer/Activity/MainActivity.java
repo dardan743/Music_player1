@@ -163,9 +163,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                    case R.id.dateandtime:
 //                        startActivity(new Intent(MainActivity.this, DateAndTime.class));
 //                        break;
-//                    case R.id.settings:
-////                        startActivity(new Intent(MainActivity.this, UISettingsActivity.class));
-////                        break;
+                    case R.id.settings:
+                        startActivity(new Intent(MainActivity.this, UISettingsActivity.class));
+                        break;
                     case R.id.Playlist:
                         startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
                         break;
